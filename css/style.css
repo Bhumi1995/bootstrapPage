@@ -1,0 +1,97 @@
+.nav-item a {
+    margin: 0 10px;
+}
+
+ul .nav-item:last-child() a {
+    margin: 0;
+} 
+
+p {
+    text-align: justify;
+}
+
+.main {
+    padding: 10px;
+}
+
+.hero {
+    background-image: url("../images/nature.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top:40px;
+    padding: 20px;
+}
+
+.hero p {
+    
+    line-height: 1.2;
+}
+
+
+.carousel-caption p {
+    text-align: justify;
+    font-size: 2vw;
+}
+
+.btn {
+
+    background-color:cadetblue;
+    border: none;
+    color: white;
+}
+
+.btn:hover  {
+    background-color: bisque;
+    color: black;
+}
+
+.main-text {
+    width: 100%;
+}
+
+.album {
+    position: relative;
+}
+
+.cards .form{
+    padding-top: 6rem;
+}
+.carousel-caption h1 {
+     font-size: 3.5vw;
+ }
+
+.card-img-top {
+   width: 100%;
+   min-height: 300px;
+}
+
+.carousel-caption {
+    top:-10%;
+    right:32%;
+    padding: 20px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#myCarousel {
+    background-color: black;
+    height: 400px;
+    margin-top: 2rem;
+}
+
+.carousel-inner{
+    text-align: center;
+    top:24%;
+    left:8%;
+    height: 280px;
+   
+}
+
+.form button {
+    font-size: 1.5vw;
+}
+
+
+@media screen and(max-width:480px){
+   
